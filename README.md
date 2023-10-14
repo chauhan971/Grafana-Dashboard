@@ -1,6 +1,9 @@
 # Grafana-Dashboard
 
 <H1>Install Nagios Server on ubuntu </H1>
+
+![nAGIOS](https://github.com/chauhan971/Grafana-Dashboard-Devops-Project/assets/67625230/ab031885-d0ba-4d68-8c1b-e2a2c03b0150)
+
 <p> For installation you can work with AWS or a VM machine Your choice</p>
 <p>After Nagios Installation The Next step is to install the Grafana plugin to your Nagios </p>
 
@@ -23,5 +26,8 @@
 1. CPU usage
 2. Network Latency
 3. Network Traffic etc.</p>
+
+![Screenshot (854)](https://github.com/chauhan971/Grafana-Dashboard-Devops-Project/assets/67625230/f33b5f34-6a54-4511-88b4-de4b51f0fbb3)
+
 
 ![Screenshot (855)](https://github.com/chauhan971/Grafana-Dashboard-Devops-Project/assets/67625230/86944dfc-6b53-4707-81d3-7f0bf443b413)
