@@ -1,13 +1,13 @@
 # Grafana-Dashboard
 
-<H1>Install Nagios Server on ubuntu </H1>
+<H3>Install Nagios Server on ubuntu </H3>
 
 ![nAGIOS](https://github.com/chauhan971/Grafana-Dashboard-Devops-Project/assets/67625230/ab031885-d0ba-4d68-8c1b-e2a2c03b0150)
 
-<p> For installation you can work with AWS or a VM machine Your choice</p>
+<p> For installation you can work with AWS or a VM machine Your choice - You can prefer the files uploaded for installation of both nagios and grafana</p>
 <p>After Nagios Installation The Next step is to install the Grafana plugin to your Nagios </p>
 
-<H2>Grafana</H2>
+<H3>Grafana</H3>
 
 ![Screenshot (841)](https://github.com/chauhan971/Grafana-Dashboard-Devops-Project/assets/67625230/6dc8cf5d-1331-4432-92f9-7a5df2ffff0d)
 
@@ -17,7 +17,7 @@
 
 <p>After Grafana installation you can access it by using localhost and if working with public ip[ like on aws then publicip:3000</p>
 
-<H2> DATA SOURCE</H2>
+<H3> DATA SOURCE</H3>
 
 ![Screenshot (847)](https://github.com/chauhan971/Grafana-Dashboard-Devops-Project/assets/67625230/0e856f8a-5d12-44dd-9b2f-a3aa6e7bc4a9)
 
