@@ -1,0 +1,47 @@
+----------------------Nagios Installation----------------------------
+
+1. sudo apt update
+
+2. sudo apt install autoconf gcc make unzip libgd-dev libmcrypt-dev libssl-dev dc snmp libnet-snmp-perl gettext
+
+3. cd ~
+
+4. curl -L -O https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.4.tar.gz
+
+5. tar zxf nagios-4.4.4.tar.gz
+
+6. cd nagioscore-nagios-4.4.4
+
+7. ./configure --with-httpd-conf=/etc/apache2/sites-enabled
+
+8. make all
+
+9. sudo make install-groups-users
+
+10. sudo make install
+sudo make install-daemoninit
+sudo make install-commandmode
+sudo make install-config
+
+11. sudo make install-webconf
+
+12. sudo a2enmod rewrite
+sudo a2enmod cgi
+
+13. sudo usermod -a -G nagios www-data
+
+14. sudo systemctl restart apache2
+
+
+-------------------Installation of Plugins ---------------------------
+
+1. cd ~
+curl -L -O https://nagios-plugins.org/download/nagios-plugins-2.2.1.tar.gz
+
+2. tar zxf nagios-plugins-2.2.1.tar.gz
+cd nagios-plugins-2.2.1
+
+3. ./configure
+
+4. make
+sudo make install
