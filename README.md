@@ -7,7 +7,7 @@
 <H2>Grafana</H2>
 <p>Grafana is an open-source, multi-platform analytics and interactive visualization web application. It allows you to query, visualize, alert on, and understand your metrics no matter where they are stored. Grafana provides charts, graphs, and alerts for the web when connected to supported data sources. It's used for running data analytics with the help of metrics that give insight into complex infrastructure and large amounts of data. You can create, explore, and share beautiful dashboards with your team and foster a data-driven culture</p>
 
-![Uploading image.png…]()
+
 
 <p>After Grafana installation you can access it by using localhost and if working with public ip[ like on aws then publicip:3000</p>
 
